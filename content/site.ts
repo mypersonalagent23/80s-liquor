@@ -18,9 +18,6 @@ export const site = {
   googleListingUrl:
     "https://www.google.com/maps/search/?api=1&query=80%27s+Liquor+890+E+Broad+St+Athens+GA+30601",
   fireflyUrl: "https://athensclarkecounty.org/firefly",
-  plansReviewUrl: "https://accgov.com/ArchiveCenter/ViewFile/Item/4750",
-  contractorUrl:
-    "https://www.linkedin.com/posts/garland-%26-associates-contractors-inc_look-at-this-transformation-over-the-past-activity-7379576965407645696-C5O1",
   rating: {
     score: "5.0",
     count: 12,

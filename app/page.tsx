@@ -4,6 +4,7 @@ import Link from "next/link";
 import { DealList } from "@/components/Deals";
 import { ExternalLink } from "@/components/ExternalLink";
 import { HoursBoard } from "@/components/HoursBoard";
+import { Memphis } from "@/components/Memphis";
 import { PhotoPlaceholder } from "@/components/PhotoPlaceholder";
 import { DEALS_NOTICE, deals } from "@/content/deals";
 import { HOURS_ROWS } from "@/content/hours";
@@ -27,7 +28,7 @@ export default function HomePage() {
             priority
             sizes="(max-width: 879px) 88px, 132px"
           />
-          <h1 className="display">
+          <h1 className="display display-pop">
             Downtown Athens’ package & liquor store.
           </h1>
           <p>{site.addressLine}</p>
@@ -55,6 +56,10 @@ export default function HomePage() {
         />
       </div>
 
+      <div className="wrap">
+        <Memphis />
+      </div>
+
       <div className="wrap home-lower">
         <div className="glance">
           <div className="glance-top">
@@ -73,13 +78,10 @@ export default function HomePage() {
             </div>
           </div>
           <div className="glance-building">
-            <h2>The building</h2>
-            <p>
-              {site.name} is at {site.street} in downtown Athens. In 2025 the building was
-              renovated into a package store.
-            </p>
+            <h2>On the shelf</h2>
+            <p>Beer, wine, and liquor, plus weekly deals.</p>
             <Link className="slide-link" href="/about">
-              About the building
+              About the store
             </Link>
           </div>
         </div>

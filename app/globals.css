@@ -173,6 +173,12 @@ a:visited {
   text-align: left;
 }
 
+.display-pop {
+  text-shadow:
+    2px 2px 0 var(--pink),
+    4px 4px 0 var(--teal);
+}
+
 .site-header {
   background: var(--white);
 }
@@ -433,6 +439,28 @@ main {
   padding-bottom: 0.25rem;
 }
 
+.memphis {
+  margin: 0.15rem 0 0.85rem;
+  max-width: 26rem;
+}
+
+.memphis-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sunset {
+  height: 1.15rem;
+  background: linear-gradient(
+    180deg,
+    var(--pink) 0 25%,
+    var(--yellow) 25% 50%,
+    var(--cream) 50% 75%,
+    var(--teal) 75% 100%
+  );
+}
+
 .glance {
   border: var(--rule);
 }
@@ -617,6 +645,16 @@ caption {
   transform-origin: right center;
   transform: rotate(45deg) translateY(9px);
   pointer-events: none;
+}
+
+.ticket.vhs {
+  background-image: linear-gradient(
+    270deg,
+    var(--pink) 0 4px,
+    var(--yellow) 4px 8px,
+    var(--teal) 8px 12px,
+    var(--white) 12px
+  );
 }
 
 .ticket.has-tag {

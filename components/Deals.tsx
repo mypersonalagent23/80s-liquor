@@ -10,7 +10,7 @@ export function DealList({
   return (
     <ul className={stacked ? "deals deals-stack" : "deals"}>
       {items.map((deal) => (
-        <li key={deal.id} className={deal.isPlaceholder ? "ticket has-tag" : "ticket"}>
+        <li key={deal.id} className={deal.isPlaceholder ? "ticket vhs has-tag" : "ticket vhs"}>
           {deal.isPlaceholder ? <span className="tag">PLACEHOLDER</span> : null}
           <p className="deal-line">{dealLine(deal)}</p>
           <p className="deal-valid">Valid: {dealValid(deal)}</p>

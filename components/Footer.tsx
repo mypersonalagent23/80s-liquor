@@ -1,12 +1,10 @@
 import { HOURS_ROWS } from "@/content/hours";
 import { site } from "@/content/site";
 import { ExternalLink } from "@/components/ExternalLink";
-import { Stripe } from "@/components/Stripe";
-
 export function Footer() {
   return (
     <footer className="site-footer">
-      <Stripe />
+      <div className="sunset" aria-hidden="true" />
       <div className="wrap footer-grid">
         <address>
           <span className="footer-name">{site.name}</span>
