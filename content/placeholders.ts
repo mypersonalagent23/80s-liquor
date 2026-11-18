@@ -22,11 +22,11 @@ export const placeholderItems = [
   },
   {
     where: "About",
-    text: "Before (tire shop) photo, owner to supply",
+    text: "Building photo, owner to supply",
   },
   {
     where: "About",
-    text: "After photo, owner to supply",
+    text: "Photo, owner to supply",
   },
   {
     where: "About",

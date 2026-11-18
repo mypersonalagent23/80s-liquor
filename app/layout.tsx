@@ -28,7 +28,7 @@ const plex = IBM_Plex_Mono({
   weight: "500",
 });
 
-const description = `${site.name} is a package store at ${site.addressLine}, next to the Firefly Trail trailhead. Mon–Wed 10am–10:30pm, Thu–Sat 10am–11:30pm, Sun 12:30pm–8pm. ${site.phoneDisplay}.`;
+const description = `${site.name} is a package store at ${site.addressLine}. Mon–Wed 10am–10:30pm, Thu–Sat 10am–11:30pm, Sun 12:30pm–8pm. ${site.phoneDisplay}.`;
 
 const metadataBase = process.env.VERCEL_URL
   ? new URL(`https://${process.env.VERCEL_URL}`)

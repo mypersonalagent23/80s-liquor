@@ -34,6 +34,7 @@ Often a phone, near East Broad or the Firefly Trail trailhead, checking if the s
 - Facts on the site come only from the verified list below. Anything else is a visible placeholder or is omitted.
 - `noindex` until launch: meta robots, `X-Robots-Tag`, and `robots.txt` disallow.
 - JSON-LD `LiquorStore` is not included in v1.
+- Do not publish the building’s former use. The Firefly Trail is named only on the Visit page.
 - Open and closed is computed in `America/New_York` from the verified hours.
 - Footer carries "Internal test build v1" and states this is an unofficial portfolio concept.
 - The official logo is used as supplied. It is not redrawn.

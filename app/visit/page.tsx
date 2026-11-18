@@ -7,7 +7,7 @@ import { site } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Visit",
-  description: `${site.name}, ${site.addressLine}. Next to the Firefly Trail downtown trailhead. ${site.phoneDisplay}.`,
+  description: `${site.name}, ${site.addressLine}. ${site.phoneDisplay}.`,
 };
 
 export default function VisitPage() {

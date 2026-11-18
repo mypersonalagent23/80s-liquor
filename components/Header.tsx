@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/content/site";
-import { ExternalLink } from "@/components/ExternalLink";
 import { Nav } from "@/components/Nav";
 import { StoreStatus } from "@/components/StoreStatus";
 import { Stripe } from "@/components/Stripe";
@@ -32,15 +31,7 @@ export function Header() {
       </div>
       <div className="header-line">
         <div className="wrap">
-          <p>
-            {site.headerLine}
-            <span aria-hidden="true"> · </span>
-            <span className="sr-only">, </span>
-            next to the{" "}
-            <ExternalLink href={site.fireflyUrl} className="slide-link">
-              Firefly Trail trailhead
-            </ExternalLink>
-          </p>
+          <p>{site.addressLine}</p>
         </div>
       </div>
     </header>

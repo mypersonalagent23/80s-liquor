@@ -10,7 +10,7 @@ import { HOURS_ROWS } from "@/content/hours";
 import { site } from "@/content/site";
 
 export const metadata: Metadata = {
-  description: `${site.name} is a package store at ${site.addressLine}, in a building that was a tire shop until 2025. Next to the Firefly Trail trailhead. ${site.phoneDisplay}.`,
+  description: `${site.name} is downtown Athens’ package and liquor store at ${site.addressLine}. ${site.phoneDisplay}.`,
 };
 
 export default function HomePage() {
@@ -28,7 +28,7 @@ export default function HomePage() {
             sizes="(max-width: 879px) 88px, 132px"
           />
           <h1 className="display">
-            Downtown Athens’ package store, in the old tire shop on E Broad.
+            Downtown Athens’ package & liquor store.
           </h1>
           <p>{site.addressLine}</p>
           <p className="hero-hours">
@@ -75,11 +75,11 @@ export default function HomePage() {
           <div className="glance-building">
             <h2>The building</h2>
             <p>
-              The building at {site.street} was a tire shop in downtown Athens. In 2025 it
-              was renovated into a package store.
+              {site.name} is at {site.street} in downtown Athens. In 2025 the building was
+              renovated into a package store.
             </p>
             <Link className="slide-link" href="/about">
-              The building’s story
+              About the building
             </Link>
           </div>
         </div>
@@ -93,12 +93,6 @@ export default function HomePage() {
           </ExternalLink>
           <span className="rating-asof">as of {site.rating.asOf}</span>
         </p>
-        <Link className="timeline-link" href="/about">
-          <span className="ticket timeline">
-            <span className="timeline-lead">Before: tire shop → 2025: package store.</span>
-            <span className="timeline-meta">Athens-Clarke County plans review, April 2025.</span>
-          </span>
-        </Link>
       </div>
     </>
   );

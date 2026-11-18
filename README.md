@@ -39,16 +39,16 @@ Only these, from the build brief:
 | Facebook | https://facebook.com/796149373579680 |
 | Google | 5.0 from 12 reviews, as of Nov 2026 |
 | Hours | Mon–Wed 10am–10:30pm · Thu–Sat 10am–11:30pm · Sun 12:30pm–8pm |
-| Building | Downtown tire shop, renovated in 2025 into a package store. Part of the exterior block was kept. |
-| Location | Next to the Firefly Trail downtown trailhead |
+| Building | Renovated in 2025 into a package store. The contractor says that, apart from some of the exterior block, it is essentially a new building. The former use is not stated on the site. |
+| Location | 890 E Broad St, downtown Athens. The Firefly Trail is mentioned once, on Visit. |
 
 Coordinates 33.958292, -83.368666 are stored on `site.geo` for a future launch and are not printed.
 
 ### Sources
 
-- Athens-Clarke County plans review agenda, April 10, 2025 (project at 890 E Broad St, change of use from a tire shop to a package store): https://accgov.com/ArchiveCenter/ViewFile/Item/4750
-- Garland & Associates Contractors, LinkedIn, October 2025, including the line "From rubber, oil, and wrenches to retro vibes and fine spirits.": https://www.linkedin.com/posts/garland-%26-associates-contractors-inc_look-at-this-transformation-over-the-past-activity-7379576965407645696-C5O1
-- Firefly Trail: https://athensclarkecounty.org/firefly
+- Athens-Clarke County plans review agenda, April 10, 2025: https://accgov.com/ArchiveCenter/ViewFile/Item/4750
+- Garland & Associates Contractors, LinkedIn, October 2025: https://www.linkedin.com/posts/garland-%26-associates-contractors-inc_look-at-this-transformation-over-the-past-activity-7379576965407645696-C5O1
+- Firefly Trail, linked once from the Visit page: https://athensclarkecounty.org/firefly
 - Directions use the address query specified in the brief: `https://www.google.com/maps/search/?api=1&query=890+E+Broad+St+Athens+GA+30601`
 
 ## Logo and color
@@ -79,7 +79,7 @@ Do not publish any of this as fact until the owner confirms it.
 2. Owner or manager name, the story in their words, founding date, and opening date.
 3. Categories carried, brands or local picks.
 4. How weekly deals are produced, who sends them, and the format.
-5. Photos: exterior, interior, before and after of the tire shop, and permission to use the Garland LinkedIn photo.
+5. Photos: exterior and other building photos, and permission to use the Garland LinkedIn photo.
 6. Parking, payment methods, delivery or curbside, special orders.
 7. Instagram or other social accounts. Facebook bio text.
 8. Whether the listed hours are current, and holiday hours.
