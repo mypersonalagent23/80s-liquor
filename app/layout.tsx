@@ -11,6 +11,7 @@ const archivo = Archivo({
   display: "swap",
   variable: "--font-archivo",
   axes: ["wdth"],
+  style: ["normal", "italic"],
 });
 
 const hanken = Hanken_Grotesk({

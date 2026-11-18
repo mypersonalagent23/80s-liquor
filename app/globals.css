@@ -160,17 +160,17 @@ a:visited {
 .display {
   display: block;
   width: fit-content;
-  max-width: calc(100% - 12px);
+  max-width: 100%;
   margin: 0 0 0.7rem;
   font-family: var(--font-display);
   font-weight: 800;
   font-stretch: 118%;
+  font-style: italic;
   font-size: clamp(2.15rem, 4.6vw, 4.15rem);
   line-height: 0.92;
   letter-spacing: -0.035em;
   color: var(--ink);
-  transform: skewX(-8deg);
-  transform-origin: left bottom;
+  text-align: left;
 }
 
 .site-header {
@@ -307,8 +307,8 @@ nav a[aria-current="page"] {
 
 @media (min-width: 900px) {
   .logo {
-    width: 56px;
-    height: 56px;
+    width: 76px;
+    height: 76px;
   }
 
   .header-bar {
@@ -346,8 +346,15 @@ main {
 .hero {
   display: grid;
   gap: 1.5rem;
-  padding: 1.6rem 0 1.8rem;
+  padding: 1.25rem 0 1rem;
   align-items: start;
+}
+
+.hero-mark {
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 0 0.85rem;
 }
 
 .hero-copy p {
@@ -422,26 +429,71 @@ main {
   margin: 0.4rem 0 1.6rem;
 }
 
+.home-lower {
+  padding-bottom: 0.25rem;
+}
+
+.glance {
+  border: var(--rule);
+}
+
 .glance-top {
   display: grid;
-  border-top: var(--rule);
 }
 
 .glance-deals,
 .glance-hours {
-  padding: 1.35rem 0 1.2rem;
+  padding: 0.9rem 1rem 1rem;
+}
+
+.glance-deals {
+  background: var(--cream);
+}
+
+.glance-deals h2 {
+  display: inline-block;
+  margin: 0 0 0.55rem;
+  padding: 0.12rem 0.45rem 0.18rem;
+  background: var(--yellow);
+  border: 1px solid var(--ink);
 }
 
 .glance-hours {
   border-top: var(--rule);
+}
+
+.hours-board h2 {
+  display: inline-block;
+  margin: 0 0 0.55rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 4px solid var(--teal);
+}
+
+.glance-hours .now-slot {
+  min-height: 0;
+  margin-bottom: 0.65rem;
+  padding: 0.55rem 0.7rem;
+  background: var(--teal);
+  border: 1px solid var(--ink);
+}
+
+.glance-hours .chip-open {
+  background: var(--white);
+}
+
+.glance-deals .note {
+  margin-bottom: 0.55rem;
+}
+
+.glance-more {
+  margin: 0.7rem 0 0;
 }
 
 .glance-building {
   display: grid;
   gap: 0.35rem 1.25rem;
   border-top: var(--rule);
-  border-bottom: var(--rule);
-  padding: 0.95rem 0 1.1rem;
+  padding: 0.75rem 1rem 0.85rem;
   align-items: baseline;
 }
 
@@ -456,6 +508,7 @@ main {
 
 .hours-board h2,
 .glance-deals h2,
+.glance-building h2,
 .section h2,
 .prose-block h2 {
   margin: 0 0 0.55rem;
@@ -465,6 +518,10 @@ main {
   font-size: clamp(1.45rem, 2.2vw, 1.85rem);
   line-height: 1.05;
   letter-spacing: -0.02em;
+}
+
+.glance-building h2 {
+  margin: 0;
 }
 
 .now-slot {
@@ -902,7 +959,7 @@ caption {
   gap: 0.25rem 0.9rem;
   align-items: baseline;
   margin: 0;
-  padding: 1rem 0 0.3rem;
+  padding: 0.85rem 0 0.15rem;
   font-size: 1.05rem;
 }
 
@@ -920,7 +977,7 @@ caption {
 .timeline-link {
   display: block;
   max-width: 38rem;
-  margin: 0.3rem 0 1.4rem;
+  margin: 0.35rem 0 0.85rem;
   color: var(--ink);
   text-decoration: none;
 }
@@ -1072,7 +1129,12 @@ caption {
   .hero {
     grid-template-columns: minmax(0, 1.15fr) minmax(16rem, 0.78fr);
     gap: 2.5rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  .hero-mark {
+    width: 132px;
+    height: 132px;
   }
 
   .hero-frame {
@@ -1083,18 +1145,17 @@ caption {
     grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.8fr);
   }
 
-  .glance-deals {
-    padding-right: 1.5rem;
-  }
-
   .glance-hours {
     border-top: 0;
     border-left: var(--rule);
-    padding-left: 1.5rem;
   }
 
   .glance-building {
-    grid-template-columns: 11rem minmax(0, 1fr) auto;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+  }
+
+  .glance-building h2 {
+    white-space: nowrap;
   }
 
   .about-grid {

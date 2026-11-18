@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { DealList } from "@/components/Deals";
 import { ExternalLink } from "@/components/ExternalLink";
 import { HoursBoard } from "@/components/HoursBoard";
 import { PhotoPlaceholder } from "@/components/PhotoPlaceholder";
-import { Stripe } from "@/components/Stripe";
 import { DEALS_NOTICE, deals } from "@/content/deals";
 import { HOURS_ROWS } from "@/content/hours";
 import { site } from "@/content/site";
@@ -18,6 +18,15 @@ export default function HomePage() {
     <>
       <div className="wrap hero">
         <div className="hero-copy">
+          <Image
+            className="hero-mark"
+            src="/logo-512.png"
+            alt=""
+            width={160}
+            height={160}
+            priority
+            sizes="(max-width: 879px) 88px, 132px"
+          />
           <h1 className="display">
             Downtown Athens’ package store, in the old tire shop on E Broad.
           </h1>
@@ -46,37 +55,35 @@ export default function HomePage() {
         />
       </div>
 
-      <Stripe />
-
-      <div className="wrap">
-        <div className="glance-top">
-          <div className="glance-deals">
-            <h2>This week’s deals</h2>
-            <p className="note">{DEALS_NOTICE}</p>
-            <DealList items={deals.slice(0, 2)} stacked />
+      <div className="wrap home-lower">
+        <div className="glance">
+          <div className="glance-top">
+            <div className="glance-deals">
+              <h2>This week’s deals</h2>
+              <p className="note">{DEALS_NOTICE}</p>
+              <DealList items={deals.slice(0, 3)} stacked />
+              <p className="glance-more">
+                <Link className="slide-link" href="/shop">
+                  See this week’s deals
+                </Link>
+              </p>
+            </div>
+            <div className="glance-hours">
+              <HoursBoard />
+            </div>
+          </div>
+          <div className="glance-building">
+            <h2>The building</h2>
             <p>
-              <Link className="slide-link" href="/shop">
-                See this week’s deals
-              </Link>
+              The building at {site.street} was a tire shop in downtown Athens. In 2025 it
+              was renovated into a package store.
             </p>
+            <Link className="slide-link" href="/about">
+              The building’s story
+            </Link>
           </div>
-          <div className="glance-hours">
-            <HoursBoard />
-          </div>
-        </div>
-        <div className="glance-building">
-          <h2>The building</h2>
-          <p>
-            The building at {site.street} was a tire shop in downtown Athens. In 2025 it
-            was renovated into a package store.
-          </p>
-          <Link className="slide-link" href="/about">
-            The building’s story
-          </Link>
         </div>
       </div>
-
-      <Stripe />
 
       <div className="wrap">
         <p className="rating">

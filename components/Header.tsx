@@ -15,10 +15,10 @@ export function Header() {
           <Image
             src="/logo-512.png"
             alt="80’s Liquor"
-            width={56}
-            height={56}
+            width={80}
+            height={80}
             priority
-            sizes="56px"
+            sizes="(max-width: 899px) 52px, 76px"
             className="logo"
           />
         </Link>
@@ -31,15 +31,17 @@ export function Header() {
         </div>
       </div>
       <div className="header-line">
-        <p className="wrap">
-          {site.headerLine}
-          <span aria-hidden="true"> · </span>
-          <span className="sr-only">, </span>
-          next to the{" "}
-          <ExternalLink href={site.fireflyUrl} className="slide-link">
-            Firefly Trail trailhead
-          </ExternalLink>
-        </p>
+        <div className="wrap">
+          <p>
+            {site.headerLine}
+            <span aria-hidden="true"> · </span>
+            <span className="sr-only">, </span>
+            next to the{" "}
+            <ExternalLink href={site.fireflyUrl} className="slide-link">
+              Firefly Trail trailhead
+            </ExternalLink>
+          </p>
+        </div>
       </div>
     </header>
   );
