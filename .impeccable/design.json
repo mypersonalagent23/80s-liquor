@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T20:50:54Z",
+  "title": "Design System: 80's Liquor",
+  "extensions": {
+    "colorMeta": {
+      "pink": {
+        "role": "primary",
+        "displayName": "Sign Pink",
+        "canonical": "#fb305d",
+        "tonalRamp": [
+          "oklch(15.0% 0.233 15.4)",
+          "oklch(26.4% 0.233 15.4)",
+          "oklch(37.9% 0.233 15.4)",
+          "oklch(49.3% 0.233 15.4)",
+          "oklch(60.7% 0.233 15.4)",
+          "oklch(72.1% 0.233 15.4)",
+          "oklch(83.6% 0.233 15.4)",
+          "oklch(95.0% 0.233 15.4)"
+        ]
+      },
+      "pink-deep": {
+        "role": "primary",
+        "displayName": "Button Pink",
+        "canonical": "#d3284e",
+        "tonalRamp": [
+          "oklch(15.0% 0.204 15.2)",
+          "oklch(26.4% 0.204 15.2)",
+          "oklch(37.9% 0.204 15.2)",
+          "oklch(49.3% 0.204 15.2)",
+          "oklch(60.7% 0.204 15.2)",
+          "oklch(72.1% 0.204 15.2)",
+          "oklch(83.6% 0.204 15.2)",
+          "oklch(95.0% 0.204 15.2)"
+        ]
+      },
+      "pink-deep-hover": {
+        "role": "primary",
+        "displayName": "Button Pink Hover",
+        "canonical": "#c42549",
+        "tonalRamp": [
+          "oklch(15.0% 0.192 14.8)",
+          "oklch(26.4% 0.192 14.8)",
+          "oklch(37.9% 0.192 14.8)",
+          "oklch(49.3% 0.192 14.8)",
+          "oklch(60.7% 0.192 14.8)",
+          "oklch(72.1% 0.192 14.8)",
+          "oklch(83.6% 0.192 14.8)",
+          "oklch(95.0% 0.192 14.8)"
+        ]
+      },
+      "yellow": {
+        "role": "secondary",
+        "displayName": "Sign Yellow",
+        "canonical": "#fcba00",
+        "tonalRamp": [
+          "oklch(15.0% 0.170 82.7)",
+          "oklch(26.4% 0.170 82.7)",
+          "oklch(37.9% 0.170 82.7)",
+          "oklch(49.3% 0.170 82.7)",
+          "oklch(60.7% 0.170 82.7)",
+          "oklch(72.1% 0.170 82.7)",
+          "oklch(83.6% 0.170 82.7)",
+          "oklch(95.0% 0.170 82.7)"
+        ]
+      },
+      "teal": {
+        "role": "tertiary",
+        "displayName": "Sign Teal",
+        "canonical": "#1ed2cc",
+        "tonalRamp": [
+          "oklch(15.0% 0.131 191.1)",
+          "oklch(26.4% 0.131 191.1)",
+          "oklch(37.9% 0.131 191.1)",
+          "oklch(49.3% 0.131 191.1)",
+          "oklch(60.7% 0.131 191.1)",
+          "oklch(72.1% 0.131 191.1)",
+          "oklch(83.6% 0.131 191.1)",
+          "oklch(95.0% 0.131 191.1)"
+        ]
+      },
+      "link": {
+        "role": "tertiary",
+        "displayName": "Link Teal",
+        "canonical": "#096360",
+        "tonalRamp": [
+          "oklch(15.0% 0.075 191.1)",
+          "oklch(26.4% 0.075 191.1)",
+          "oklch(37.9% 0.075 191.1)",
+          "oklch(49.3% 0.075 191.1)",
+          "oklch(60.7% 0.075 191.1)",
+          "oklch(72.1% 0.075 191.1)",
+          "oklch(83.6% 0.075 191.1)",
+          "oklch(95.0% 0.075 191.1)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 0.0)",
+          "oklch(26.4% 0.000 0.0)",
+          "oklch(37.9% 0.000 0.0)",
+          "oklch(49.3% 0.000 0.0)",
+          "oklch(60.7% 0.000 0.0)",
+          "oklch(72.1% 0.000 0.0)",
+          "oklch(83.6% 0.000 0.0)",
+          "oklch(95.0% 0.000 0.0)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#212123",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 0.0)",
+          "oklch(26.4% 0.000 0.0)",
+          "oklch(37.9% 0.000 0.0)",
+          "oklch(49.3% 0.000 0.0)",
+          "oklch(60.7% 0.000 0.0)",
+          "oklch(72.1% 0.000 0.0)",
+          "oklch(83.6% 0.000 0.0)",
+          "oklch(95.0% 0.000 0.0)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#4a4748",
+        "tonalRamp": [
+          "oklch(15.0% 0.004 354.9)",
+          "oklch(26.4% 0.004 354.9)",
+          "oklch(37.9% 0.004 354.9)",
+          "oklch(49.3% 0.004 354.9)",
+          "oklch(60.7% 0.004 354.9)",
+          "oklch(72.1% 0.004 354.9)",
+          "oklch(83.6% 0.004 354.9)",
+          "oklch(95.0% 0.004 354.9)"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Sign Cream",
+        "canonical": "#fcf6e4",
+        "tonalRamp": [
+          "oklch(15.0% 0.025 91.6)",
+          "oklch(26.4% 0.025 91.6)",
+          "oklch(37.9% 0.025 91.6)",
+          "oklch(49.3% 0.025 91.6)",
+          "oklch(60.7% 0.025 91.6)",
+          "oklch(72.1% 0.025 91.6)",
+          "oklch(83.6% 0.025 91.6)",
+          "oklch(95.0% 0.025 91.6)"
+        ]
+      },
+      "hatch": {
+        "role": "neutral",
+        "displayName": "Hatch",
+        "canonical": "#f3f1ec",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 88.6)",
+          "oklch(26.4% 0.007 88.6)",
+          "oklch(37.9% 0.007 88.6)",
+          "oklch(49.3% 0.007 88.6)",
+          "oklch(60.7% 0.007 88.6)",
+          "oklch(72.1% 0.007 88.6)",
+          "oklch(83.6% 0.007 88.6)",
+          "oklch(95.0% 0.007 88.6)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page titles only. Archivo, width 118%, weight 800, skewed −8° from the lower left."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Upright section headings. Archivo, width 112%, weight 800."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Uppercase category names. Archivo, width 115%, weight 800."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Hanken Grotesk at 1.125rem (18px), weight 400, line-height 1.55."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "IBM Plex Mono, weight 500. Chips, tags, hours, frame labels, and the rating figure."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "rise",
+        "value": "700ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Hero copy fades and rises 8px when motion is allowed."
+      },
+      {
+        "name": "underline-slide",
+        "value": "220ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Text links redraw their underline from the left."
+      },
+      {
+        "name": "state",
+        "value": "160ms ease",
+        "purpose": "Background, color, and border on buttons, nav, and phone links."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "700",
+        "value": "700px"
+      },
+      {
+        "name": "880",
+        "value": "880px"
+      },
+      {
+        "name": "900",
+        "value": "900px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one filled action: deals or directions. Button Pink, white type, ink border.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#deals\">This week’s deals</a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0.65rem 1rem; border: 1px solid var(--ink, #212123); border-radius: 0; background: var(--pink-deep, #d3284e); color: var(--white, #ffffff); font-family: var(--font-body), \"Hanken Grotesk\", \"Avenir Next\", \"Segoe UI\", sans-serif; font-weight: 700; font-size: 1.05rem; line-height: 1.2; text-align: center; text-decoration: none; transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease; } .ds-btn-primary:visited { color: var(--white, #ffffff); } .ds-btn-primary:hover { background: var(--pink-deep-hover, #c42549); color: var(--white, #ffffff); } .ds-btn-primary:focus-visible { outline: 2px solid var(--ink, #212123); outline-offset: 3px; }"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "The second action. White with an ink border; hover fills with ink.",
+      "html": "<a class=\"ds-btn-line\" href=\"#directions\">Get directions</a>",
+      "css": ".ds-btn-line { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0.65rem 1rem; border: 1px solid var(--ink, #212123); border-radius: 0; background: var(--white, #ffffff); color: var(--ink, #212123); font-family: var(--font-body), \"Hanken Grotesk\", \"Avenir Next\", \"Segoe UI\", sans-serif; font-weight: 700; font-size: 1.05rem; line-height: 1.2; text-align: center; text-decoration: none; transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease; } .ds-btn-line:visited { color: var(--ink, #212123); } .ds-btn-line:hover { background: var(--ink, #212123); color: var(--white, #ffffff); } .ds-btn-line:focus-visible { outline: 2px solid var(--ink, #212123); outline-offset: 3px; }"
+    },
+    {
+      "name": "Open Chip",
+      "kind": "chip",
+      "refersTo": "chip-open",
+      "description": "Today’s status when the store is open. Sign teal fill, ink type.",
+      "html": "<span class=\"ds-chip ds-chip-open\">Open now</span>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; min-height: 1.7rem; padding: 0.1rem 0.45rem; border: 1px solid var(--ink, #212123); border-radius: 0; font-family: var(--font-mono), \"IBM Plex Mono\", ui-monospace, monospace; font-weight: 500; font-size: 0.78rem; letter-spacing: 0.02em; line-height: 1.2; } .ds-chip-open { background: var(--teal, #1ed2cc); color: var(--ink, #212123); }"
+    },
+    {
+      "name": "Closed Chip",
+      "kind": "chip",
+      "refersTo": "chip-closed",
+      "description": "Today’s status when the store is closed. Ink fill, white type.",
+      "html": "<span class=\"ds-chip ds-chip-closed\">Closed</span>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; min-height: 1.7rem; padding: 0.1rem 0.45rem; border: 1px solid var(--ink, #212123); border-radius: 0; font-family: var(--font-mono), \"IBM Plex Mono\", ui-monospace, monospace; font-weight: 500; font-size: 0.78rem; letter-spacing: 0.02em; line-height: 1.2; } .ds-chip-closed { background: var(--ink, #212123); color: var(--white, #ffffff); }"
+    },
+    {
+      "name": "Work-order Ticket",
+      "kind": "card",
+      "refersTo": "ticket",
+      "description": "A deal or an unknown note. Square ticket, one clipped top-right corner, yellow placeholder tag.",
+      "html": "<article class=\"ds-ticket\"><span class=\"ds-tag\">PLACEHOLDER</span><p class=\"ds-ticket-line\">Deal name · size · price: owner to supply</p><p class=\"ds-ticket-meta\">Valid: dates TBD</p></article>",
+      "css": ".ds-ticket { position: relative; display: block; max-width: 22rem; border: 1px solid var(--ink, #212123); border-radius: 0; background: var(--white, #ffffff); color: var(--ink, #212123); padding: 2.35rem 0.9rem 0.85rem; clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%); } .ds-ticket::after { content: \"\"; position: absolute; top: 0; right: 0; width: 20px; height: 1px; background: var(--ink, #212123); transform-origin: right center; transform: rotate(45deg) translateY(9px); pointer-events: none; } .ds-ticket .ds-tag { position: absolute; top: 0.55rem; left: 0.55rem; display: inline-block; border: 1px solid var(--ink, #212123); border-radius: 0; background: var(--yellow, #fcba00); color: var(--ink, #212123); padding: 0.18rem 0.35rem; font-family: var(--font-mono), \"IBM Plex Mono\", ui-monospace, monospace; font-weight: 500; font-size: 0.75rem; letter-spacing: 0.05em; line-height: 1.2; } .ds-ticket-line { margin: 0; font-family: var(--font-body), \"Hanken Grotesk\", \"Avenir Next\", \"Segoe UI\", sans-serif; font-size: 1.05rem; } .ds-ticket-meta { margin: 0.7rem 0 0; font-family: var(--font-mono), \"IBM Plex Mono\", ui-monospace, monospace; font-weight: 500; font-size: 0.875rem; }"
+    },
+    {
+      "name": "Notice Banner",
+      "kind": "card",
+      "refersTo": "banner",
+      "description": "Dashed cream notice for copy that is still a placeholder.",
+      "html": "<p class=\"ds-banner\">Placeholder content. Real weekly deals to be supplied by 80’s Liquor.</p>",
+      "css": ".ds-banner { margin: 0; max-width: 68ch; padding: 0.75rem 0.9rem; border: 1px dashed var(--ink, #212123); border-radius: 0; background: var(--cream, #fcf6e4); color: var(--ink, #212123); font-family: var(--font-body), \"Hanken Grotesk\", \"Avenir Next\", \"Segoe UI\", sans-serif; font-size: 1.125rem; line-height: 1.55; }"
+    },
+    {
+      "name": "Primary Nav",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Home, Shop, Visit, About. Current page takes a sign-pink underline; hover takes ink.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary\"><a href=\"#home\">Home</a><a href=\"#shop\" aria-current=\"page\">Shop</a><a href=\"#visit\">Visit</a><a href=\"#about\">About</a></nav>",
+      "css": ".ds-nav { display: flex; flex-wrap: wrap; gap: 0.15rem; } .ds-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 0.55rem; border-bottom: 2px solid transparent; color: var(--ink, #212123); font-family: var(--font-body), \"Hanken Grotesk\", \"Avenir Next\", \"Segoe UI\", sans-serif; font-weight: 700; font-size: 1rem; text-decoration: none; transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease; } .ds-nav a:visited { color: var(--ink, #212123); } .ds-nav a:hover { border-bottom-color: var(--ink, #212123); } .ds-nav a[aria-current=\"page\"] { border-bottom-color: var(--pink, #fb305d); } .ds-nav a:focus-visible { outline: 2px solid var(--ink, #212123); outline-offset: 3px; }"
+    },
+    {
+      "name": "Hatched Frame",
+      "kind": "custom",
+      "refersTo": "frame",
+      "description": "A missing photo. Dashed ink frame, hatch ground, mono label along the bottom.",
+      "html": "<figure class=\"ds-frame\"><figcaption class=\"ds-frame-label\">Exterior photo: owner to supply</figcaption></figure>",
+      "css": ".ds-frame { position: relative; display: flex; flex-direction: column; justify-content: flex-end; width: 16.5rem; aspect-ratio: 4 / 5; min-height: 7rem; margin: 0; overflow: hidden; border: 1px dashed var(--ink, #212123); border-radius: 0; background-color: var(--hatch, #f3f1ec); background-image: repeating-linear-gradient(-45deg, transparent, transparent 7px, rgba(33, 33, 35, 0.16) 7px, rgba(33, 33, 35, 0.16) 8px); } .ds-frame-label { margin: 0; padding: 0.65rem 0.75rem; background: rgba(255, 255, 255, 0.92); color: var(--ink, #212123); font-family: var(--font-mono), \"IBM Plex Mono\", ui-monospace, monospace; font-weight: 500; font-size: 0.875rem; letter-spacing: 0; line-height: 1.35; }"
+    },
+    {
+      "name": "Map Placeholder",
+      "kind": "custom",
+      "refersTo": "frame",
+      "description": "The visit frame. Same hatch, labeled “Map placeholder”, with the street address in a white card.",
+      "html": "<figure class=\"ds-map\"><h2 class=\"ds-map-label\">Map placeholder</h2><div class=\"ds-map-body\"><p>890 E Broad St<br>Athens, GA 30601</p></div></figure>",
+      "css": ".ds-map { position: relative; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end; gap: 0.55rem; width: min(100%, 40rem); aspect-ratio: 16 / 9; min-height: 7rem; margin: 0; padding: 1rem; overflow: hidden; border: 1px dashed var(--ink, #212123); border-radius: 0; background-color: var(--hatch, #f3f1ec); background-image: repeating-linear-gradient(-45deg, transparent, transparent 7px, rgba(33, 33, 35, 0.16) 7px, rgba(33, 33, 35, 0.16) 8px); } .ds-map-label { margin: 0; width: auto; border: 1px solid var(--ink, #212123); border-radius: 0; background: var(--white, #ffffff); color: var(--ink, #212123); padding: 0.15rem 0.45rem; font-family: var(--font-mono), \"IBM Plex Mono\", ui-monospace, monospace; font-weight: 500; font-size: 0.875rem; letter-spacing: 0; line-height: 1.35; } .ds-map-body { max-width: 24rem; border: 1px solid var(--ink, #212123); border-radius: 0; background: rgba(255, 255, 255, 0.94); color: var(--ink, #212123); padding: 0.85rem 1rem; font-family: var(--font-body), \"Hanken Grotesk\", \"Avenir Next\", \"Segoe UI\", sans-serif; font-size: 1.125rem; line-height: 1.55; } .ds-map-body p { margin: 0; }"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Link Teal sentence links. The underline redraws from the left on hover.",
+      "html": "<a class=\"ds-slide-link\" href=\"#trail\">Firefly Trail trailhead</a>",
+      "css": ".ds-slide-link { color: var(--link, #096360); font-family: var(--font-body), \"Hanken Grotesk\", \"Avenir Next\", \"Segoe UI\", sans-serif; font-size: 1.125rem; text-decoration: none; background-image: linear-gradient(currentColor, currentColor); background-repeat: no-repeat; background-position: 0 100%; background-size: 100% 1px; } .ds-slide-link:visited { color: var(--link, #096360); } .ds-slide-link:hover, .ds-slide-link:focus-visible { animation: ds-underline-slide 220ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-slide-link:focus-visible { outline: 2px solid var(--ink, #212123); outline-offset: 3px; } @keyframes ds-underline-slide { from { background-size: 0 1px; } to { background-size: 100% 1px; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Shop Sign and the Work Order",
+    "overview": "The site is a package-store counter on a white page. The official logo is the supplied PNG, used as-is. Color comes from that sign and stays in the minority: a three-line stripe, a button, a tag, an open or closed chip, a cream row. Ink does the reading. The page does not borrow a tasting-room layout, a shadow stack, or a neon theme.\n\nType carries the counter. One display line is expanded and skewed. Headlines in the same face stay upright. Body is a plain grotesque at 18px. Hours, tags, chips, and frame labels are mono, so the record looks like a work order rather than a story. Unknown photos and the map sit in a hatched frame with a readable label. Deals and the owner note sit on a clipped ticket.\n\nMotion is small and optional. When the visitor allows it, the hero copy rises 8px and fades in, and text links redraw their underline from the left. Reduced motion removes the entrance, the underline redraw, and the color transitions. Focus is a 2px ink outline set 3px outside the control.",
+    "keyCharacteristics": [
+      "White page, ink text, and 1px ink rules, with no shadows",
+      "Sign colors used as stripes and fills; button pink deepened so white type holds",
+      "Skewed expanded display, upright headlines, mono for hours and tags",
+      "Clipped tickets and hatched frames with visible labels",
+      "A full-bleed three-line stripe as the only ornament",
+      "Official logo PNG, not a redraw"
+    ],
+    "rules": [
+      {
+        "name": "The Fill-Not-Text Rule",
+        "body": "Sign yellow, sign cream, and the bright sign teal are never type. They are stripes, tags, row highlights, and the open chip. Body, headlines, and labels are ink. Linked sentences use the darkened teal. White type appears on the deepened-pink button and the closed chip.",
+        "section": "colors"
+      },
+      {
+        "name": "The Deepened Button Rule",
+        "body": "The primary button does not use sign pink. It uses Button Pink, then Button Pink Hover. Sign pink stays the stripe and the current-page mark.",
+        "section": "colors"
+      },
+      {
+        "name": "The Skew Rule",
+        "body": "Display lines are Archivo, width 118%, skewed −8° from the lower left. Headlines, category names, and phone numbers in the same family stay upright.",
+        "section": "typography"
+      },
+      {
+        "name": "The Record Face Rule",
+        "body": "Hours, tags, chips, ticket meta, frame labels, the rating figure, and source lines are IBM Plex Mono at weight 500. Body stays in Hanken Grotesk.",
+        "section": "typography"
+      },
+      {
+        "name": "The Column and the Bleed Rule",
+        "body": "Reading content lives in the 1120px column. The stripe and the hairline rules that frame the header bleed edge to edge.",
+        "section": "layout"
+      },
+      {
+        "name": "The No Shadow Rule",
+        "body": "Surfaces are flat at rest and flat on hover. Do not add a drop shadow to a button, ticket, frame, or header.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Clip Rule",
+        "body": "Only the ticket clips a corner, and only the top-right 14px. Every other corner is square.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Three-Line Rule",
+        "body": "The only ornament is the full-bleed stripe of three 3px bands. No second pattern, no neon, no generated illustration.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Labeled Blank Rule",
+        "body": "A missing photo or map stays a hatched frame with a readable label. The visit frame's label is \"Map placeholder\". Do not drop in a generated picture.",
+        "section": "components"
+      },
+      {
+        "name": "The Range Stays Whole Rule",
+        "body": "An open-to-close range stays on one line. The weekly caption on the hours table stays screen-reader only.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do keep the page ground white and the reading text ink.",
+      "Do use the official logo PNG as supplied: 52px in the header, 56px from 900px up.",
+      "Do skew display lines −8° from the lower left, Archivo width 118%, weight 800, and leave headlines upright at width 112%.",
+      "Do set body in Hanken Grotesk at 1.125rem (18px), weight 400, line-height 1.55.",
+      "Do set hours, tags, chips, and frame labels in IBM Plex Mono at weight 500.",
+      "Do fill the primary button with Button Pink and white type, keep the 1px ink border, and hold a 48px minimum height.",
+      "Do mark the current nav item with a 2px Sign Pink underline. Hover is a 2px ink underline.",
+      "Do keep each hours range intact on one line. Keep the weekly-hours caption screen-reader only.",
+      "Do label a missing photo or map in the hatched frame. The visit frame reads \"Map placeholder\".",
+      "Do draw :focus-visible as a 2px ink outline, 3px outside the control.",
+      "Do run the 8px hero rise (700ms) and the underline redraw only when the visitor has not asked for reduced motion."
+    ],
+    "donts": [
+      "Don't set type in sign yellow, sign cream, or the bright sign teal.",
+      "Don't use sign pink as the button fill. That pink is the stripe and the current-page mark.",
+      "Don't add a drop shadow, a corner radius, or an ornament besides the three-line stripe.",
+      "Don't redraw the logo or replace a labeled hatch with a generated illustration.",
+      "Don't load Archivo Black as a second family. Display type is Archivo with the width axis.",
+      "Don't skew headlines, category names, or the phone number.",
+      "Don't show the weekly-hours caption as visible text above the table.",
+      "Don't build a neon theme. The period notes are the stripe, the skew, and the ticket.",
+      "Don't give visited links a second color. A visited text link stays Link Teal; a visited button, nav item, or phone link keeps that control's own ink or white."
+    ]
+  }
+}
